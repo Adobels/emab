@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: protools.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Je maîtrise Pro Tools, l'un des logiciels de référence dans la production et le montage audio. Mon expérience me permet d'accompagner musiciens, chanteurs et compositeurs dans l'enregistrement, l'édition, le mixage et l'arrangement de leurs projets. Que vous soyez débutant, intermédiaire ou avancé, je propose des cours adaptés à vos besoins, prise en main de l'interface, travail sur des sessions multipistes, optimisation du flux de travail et intégration d'effets et de plugins. Depuis plusieurs années, j'utilise Pro Tools comme support pédagogique en complément des méthodes traditionnelles, afin de développer l'autonomie des élèves dans la création musicale et d'apporter une véritable compréhension des techniques de studio modernes.
+---

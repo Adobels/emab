@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: studio.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Le studio est un espace dédié à la pratique et à la production musicale, spécialement aménagé pour offrir confort et qualité sonore. Il dispose d'instruments variés (guitares, piano, basse), de micros et d'enceintes de monitoring, ainsi que d'un poste de travail équipé de logiciels professionnels comme Pro Tools. Conçu aussi bien pour l'enregistrement que pour l'apprentissage, ce studio permet de travailler dans des conditions proches d'un environnement professionnel tout en conservant une atmosphère conviviale et propice à la créativité
+---
