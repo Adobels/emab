@@ -2,8 +2,6 @@
 
 Ce dépôt contient le code source du site vitrine [emmanuelbousquet.fr](https://emmanuelbousquet.fr).
 
-🎸 Emmanuel Bousquet : Professeur de guitare, piano et basse à Asnières-sur-Seine depuis 1980.
-
 🔧 Technologies utilisées
 - Site statique généré avec [Jekyll](https://jekyllrb.com)
 - Thème Freelancer de [Startbootstrap](https://startbootstrap.com/theme/freelancer)
