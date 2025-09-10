@@ -576,3 +576,10 @@ section#contact .container {
 .price-box.box-primary .price-box-top {
     background-color: #568C46;
 }
+
+@media(max-width:767px) {
+    .formules {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
