@@ -478,13 +478,35 @@ footer .footer-below {
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
+
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
-.col-sm-4 {
-    width: 33%;
-    overflow: hidden;
+
+@media(max-width:767px) {
+    .col-sm-4 {
+        width: 100%;
+        margin-bottom: 15px;
+        border-color: #2c3e50;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 8px;
+    }
+}
+
+@media(min-width:768px) {
+    .col-sm-4 {
+        width: 33%;
+        overflow: hidden;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 1px;
+        border-color: #2c3e50;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 8px;
+    }
 }
 .price-box-top span small {
     font-size: 18px;
@@ -522,16 +544,6 @@ footer .footer-below {
     text-align: center;
     position: relative;
     z-index: 0;
-    height: 210px;
-}
-.col-sm-4 {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 1px;
-    border-color: #2c3e50;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 8px;
 }
 .section-txt-btn {
     color: #2c3e50;
@@ -559,4 +571,8 @@ footer .footer-below {
 
 section#contact .container {
     width: 50%;
+}
+
+.price-box.box-primary .price-box-top {
+    background-color: #568C46;
 }
