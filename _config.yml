@@ -8,11 +8,12 @@ keywords: "your keywords, separated by commas"
 skills: "Votre prof de guitare, piano et guitare basse </br> à ASNIÈRES-SUR-SEINE depuis 1980</br></br>
 Des cours sur mesure, une méthode adaptée à chaque élève, et plus de 40 ans d’expérience pour vous guider, que vous soyez débutant ou avancé.</br></br>"
 meta_author: LastName FirstName
+web3forms_public_access_key: 6ec92076-fa0d-4f33-ae2f-369d77fe0ac3
 
 phone: "06 27 09 12 83"
 phone_hours: "09:00-20:00"
 # Google webmaster tools
-google_verify:
+google_verify: google-site-verification=nMwPehO_g-DbbWZyuaDigDaVoOvsbhc44BwR3Ym5pOA
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:

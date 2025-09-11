@@ -12,7 +12,7 @@
         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
         <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
         <form name="sentMessage" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-          <input type="hidden" name="access_key" value="32c1ccb5-e3cd-4833-9d56-1f010446da36">
+          <input type="hidden" name="access_key" value="{{ site.web3forms_public_access_key }}">
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="name">Nom</label>
