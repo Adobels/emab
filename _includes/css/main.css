@@ -430,6 +430,29 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }};
 }
 
+/* iOS Navigation Bar Fix */
+.navbar {
+  min-height: 50px;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  height: 50px;
+  padding: 15px 15px;
+  line-height: 20px;
+}
+
+.navbar-toggle {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 9px 10px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /* Phone link styles */
 footer a.phone-link,
 footer a.phone-link:visited,
