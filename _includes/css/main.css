@@ -430,6 +430,21 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }};
 }
 
+/* Phone link styles */
+footer a.phone-link,
+footer a.phone-link:visited,
+footer a.phone-link:hover,
+footer a.phone-link:active {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+footer a.phone-link:hover {
+    opacity: 0.8;
+}
+
 .btn-social {
     display: inline-block;
     width: 50px;

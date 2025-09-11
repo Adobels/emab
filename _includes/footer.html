@@ -24,7 +24,7 @@
         </div>
         <div class="footer-col col-md-4">
           <h3>{{ site.footer.contact }}</h3>
-          <p>Portable: {{ site.phone }}</p>
+          <p>Portable: <a href="tel:{{ site.phone | remove: ' ' }}" class="phone-link">{{ site.phone }}</a></p>
           <p>Horaires: {{ site.phone_hours }}</p>
         </div>
       </div>
