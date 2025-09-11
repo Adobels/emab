@@ -4,8 +4,63 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+/* Reset and base styles */
+html, body {
+    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* Ensure containers don't cause horizontal scroll */
+.container, 
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-x: hidden;
+}
+
+/* Add more padding on mobile devices */
+@media (max-width: 768px) {
+    .container, 
+    .container-fluid {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+/* Fix for iOS viewport units */
+@supports (-webkit-touch-callout: none) {
+    body {
+        /* The hack for Safari */
+        height: -webkit-fill-available;
+    }
+}
+
+/* Prevent horizontal overflow on all elements */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+    height: auto;
 }
 
 p {
@@ -571,9 +626,7 @@ footer .footer-below {
     padding: 0px 0;
 }
 
-section#contact .container {
-    width: 50%;
-}
+
 
 .price-box.box-primary .price-box-top {
     background-color: #568C46;
