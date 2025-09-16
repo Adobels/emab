@@ -1,13 +1,13 @@
 # Site settings
 title: Emmanuel 🎸 BOUSQUET
 email: queta@club-internet.fr
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+url: https://emmanuelbousquet.fr/
+description: "Professeur de guitare à Asnières-sur-Seine – Emmanuel Bousquet. Cours de guitare, piano, chant et solfège pour enfants, ados et adultes. Studio professionnel et pédagogie personnalisée."
+keywords: "professeur de guitare Asnières-sur-Seine, cours de guitare enfants ados adultes, cours de piano Asnières-sur-Seine, cours de chant Asnières-sur-Seine, cours de solfège Hauts-de-Seine, apprendre guitare débutant avancé, professeur de musique Asnières, studio musique Asnières-sur-Seine, leçon de guitare individuelle, pédagogie musicale personnalisée"
 #skills: "Web Developer - Graphic Artist - User Experience Designer"
 skills: "Votre prof de guitare, piano et guitare basse </br> à ASNIÈRES-SUR-SEINE depuis 1980</br></br>
 Des cours sur mesure, une méthode adaptée à chaque élève, et plus de 40 ans d’expérience pour vous guider, que vous soyez débutant ou avancé.</br></br>"
-meta_author: LastName FirstName
+meta_author: Emmanuel Bousquet
 web3forms_public_access_key: 6ec92076-fa0d-4f33-ae2f-369d77fe0ac3
 
 phone: "06 27 09 12 83"
