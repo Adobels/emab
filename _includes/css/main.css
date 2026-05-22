@@ -506,6 +506,11 @@ footer a.phone-link:hover {
     outline: 0;
 }
 
+elevenlabs-convai {
+    position: relative;
+    z-index: 2147483647;
+}
+
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
