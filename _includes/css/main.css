@@ -507,7 +507,7 @@ footer a.phone-link:hover {
 }
 
 elevenlabs-convai {
-    position: relative;
+    position: absolute;
     z-index: 2147483647;
 }
 
